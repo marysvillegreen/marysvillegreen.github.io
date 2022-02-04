@@ -70,24 +70,24 @@ body{
             position: fixed;
         }
         .container1{
-            width: fit-content;
+            width: 102%;
             height: 1000px;
             background-image: linear-gradient(rgb(0, 73, 50), rgb(81, 114, 105));
             margin-top: 0%;
         }
         .container2{
-            width: fit-content;
-            height: 1000px;
+            width: 102%;
+            height: 900px;
             background-image: linear-gradient(rgb(81, 114, 105), rgb(255, 255, 255));
             margin-top: 0%;
-            overflow-x: hidden;
+            /* overflow-x: hidden; */
         }
         .container3{
-            width: fit-content;
-            height: 800px;
+            width: 102%;
+            height: 750px;
             background-color: white;
             /* margin-top: 2%; */
-            margin-bottom: 100%;
+            /* margin-bottom: 100%; */
         }
         .buffer_conatiner{
             margin-top: 0%; /* This container is for the navbar to be in the right place and not move down as we pass the margin value. */
@@ -95,14 +95,14 @@ body{
         .big_num{
             text-align: center;
             margin-top: 5%;
-            font-size: 700%;
+            font-size: 500%;
             letter-spacing: 9px;
             font-family: 'Staatliches', cursive;
             color: white;
         }
         p.tons{
             text-align: center;
-            margin-top: -100px;
+            margin-top: -90px;
             margin-bottom: -300px;
             font-size: 150%;
             letter-spacing: 5px;
@@ -135,7 +135,7 @@ body{
         .recycle_img{
             width: 50%;
             margin-left: 25%;
-            margin-top: 30%;
+            margin-top: 0%;
         }
         .box1{
             border: solid black 3px;
@@ -144,7 +144,7 @@ body{
             border-radius: 10px;
             background-color: #1a791a;
             margin-left: 5%;
-            margin-top: -500px;
+            margin-top: -700px;
         }
         .box2{
             border: solid 3px black;
@@ -175,25 +175,25 @@ body{
             background-color: #b11616;
             margin-left: 5%;
             margin-top: 20px;
-            margin-bottom: 50px;
+            margin-bottom: 0px;
         }
         .information1_heading{
             text-align: center;
-            font-size: 250%;
+            font-size: 100%;
             color: white;
         }
         .information1{
             text-align: justify;
             margin-right: 15%;
             margin-left: 15%;
-            font-size: 130%;
+            font-size: 80%;
             color: white;
             margin-top: 10%;
             line-height: 130%;
         }
         .information2_heading{
             text-align: center;
-            font-size: 250%;
+            font-size: 100%;
             color: white;
             margin-top: 2%;
         }
@@ -201,35 +201,35 @@ body{
             text-align: justify;
             margin-right: 15%;
             margin-left: 15%;
-            font-size: 130%;
+            font-size: 80%;
             color: white;
             margin-top: 7%;
             line-height: 130%;
         }
         .information3_heading{
             text-align: center;
-            font-size: 250%;
+            font-size: 100%;
             color: white;
         }
         .information3{
             text-align: justify;
             margin-right: 15%;
             margin-left: 15%;
-            font-size: 130%;
+            font-size: 80%;
             color: white;
             margin-top: 10%;
             line-height: 130%;
         }
         .information4_heading{
             text-align: center;
-            font-size: 250%;
+            font-size: 100%;
             color: white;
         }
         .information4{
             text-align: justify;
             margin-right: 15%;
             margin-left: 15%;
-            font-size: 130%;
+            font-size: 80%;
             color: white;
             margin-top: 10%;
             line-height: 130%;
@@ -237,10 +237,11 @@ body{
         .contacts{
             width: 100%;
             border: solid 3px black;
-            margin-top: 500px;
+            margin-top: 0px;
             height: 300px;
             background-color: black;
             color: white;
+            margin-bottom: -500px;
         }
         .marysville_logo{
             width: 30%;
@@ -254,6 +255,10 @@ body{
             border-radius: 10px;
             margin-right: -26%;
             margin-top: 15%;
+        }
+        .breaker{
+            display: none;
+            height: 0px;
         }
         .contact_info1{
             text-decoration: underline;
@@ -284,6 +289,7 @@ body{
             background-color: white;
             padding: 0%;
             margin: 0%;
+            overflow-x: hidden;
         }
         .nav{
             width: 100%;
@@ -350,7 +356,8 @@ body{
             height: 800px;
             background-color: white;
             /* margin-top: 2%; */
-            margin-bottom: 100%;
+            /* margin-bottom: 100%; */
+            margin-top: 0%;
         }
         .buffer_conatiner{
             margin-top: 0%; /* This container is for the navbar to be in the right place and not move down as we pass the margin value. */
@@ -407,7 +414,7 @@ body{
             border-radius: 10px;
             background-color: #1a791a;
             margin-left: 5%;
-            margin-top: -500px;
+            margin-top: -450px;
         }
         .box2{
             border: solid 3px black;
@@ -497,6 +504,65 @@ body{
             margin-top: 10%;
             line-height: 130%;
         }
+        @media (min-width: 600px) {
+            .information1_heading{
+                text-align: center;
+                font-size: 250%;
+                color: white;
+            }
+            .information1{
+                text-align: justify;
+                margin-right: 15%;
+                margin-left: 15%;
+                font-size: 180%;
+                color: white;
+                margin-top: 10%;
+                line-height: 130%;
+            }
+            .information2_heading{
+                text-align: center;
+                font-size: 250%;
+                color: white;
+                margin-top: 2%;
+            }
+            .information2{
+                text-align: justify;
+                margin-right: 15%;
+                margin-left: 15%;
+                font-size: 180%;
+                color: white;
+                margin-top: 7%;
+                line-height: 130%;
+            }
+            .information3_heading{
+                text-align: center;
+                font-size: 250%;
+                color: white;
+            }
+            .information3{
+                text-align: justify;
+                margin-right: 15%;
+                margin-left: 15%;
+                font-size: 180%;
+                color: white;
+                margin-top: 10%;
+                line-height: 130%;
+            }
+            .information4_heading{
+                text-align: center;
+                font-size: 250%;
+                color: white;
+            }
+            .information4{
+                text-align: justify;
+                margin-right: 15%;
+                margin-left: 15%;
+                font-size: 180%;
+                color: white;
+                margin-top: 10%;
+                line-height: 130%;
+            }
+        }
         .contacts{
             width: 100%;
             border: solid 3px black;
@@ -504,6 +570,7 @@ body{
             height: 300px;
             background-color: black;
             color: white;
+            margin-top: 500px;
         }
         .marysville_logo{
             width: 30%;
@@ -518,6 +585,53 @@ body{
             margin-right: -26%;
             margin-top: 15%;
         }
+        @media (min-width: 520px) {
+            .contacts{
+                width: 100%;
+                border: solid 3px black;
+                margin-top: 500px;
+                height: 300px;
+                background-color: black;
+                color: white;
+                margin-top: 800px;
+            }
+        }
+        @media (min-width: 620px) {
+            .contacts{
+                width: 100%;
+                border: solid 3px black;
+                margin-top: 500px;
+                height: 300px;
+                background-color: black;
+                color: white;
+                margin-top: 1050px;
+            }
+        }
+        @media (min-width: 720px) {
+            .contacts{
+                width: 100%;
+                border: solid 3px black;
+                margin-top: 500px;
+                height: 300px;
+                background-color: black;
+                color: white;
+                margin-top: 1380px;
+            }
+            .marysville_logo{
+                width: 30%;
+                float: right;
+                margin-top: 20%;
+        
+            }
+            .bpa_logo{
+                width: 20%;
+                float: right;
+                border-radius: 10px;
+                margin-right: -26%;
+                margin-top: 10%;
+            }
+        }
+        
         .contact_info1{
             text-decoration: underline;
             color: white;
@@ -545,6 +659,11 @@ body{
     @media (min-width: 820px) {
         body{
             background-color: white;
+            overflow-x: hidden;
+            width: 100%;
+            height: 100%;
+            padding: 0%;
+            margin: 0%;
         }
         .nav{
             width: 100%;
@@ -605,12 +724,14 @@ body{
             height: 1000px;
             background-image: linear-gradient(rgb(81, 114, 105), rgb(255, 255, 255));
             /* margin-top: 2%; */
+            /* margin-top: -50%; */
         }
         .container3{
             width: 100%;
             height: 800px;
             background-image: linear-gradient(rgb(255, 255, 255));
             /* margin-top: 2%; */
+            
         }
         .buffer_conatiner{
             margin-top: 0%; /* This container is for the navbar to be in the right place and not move down as we pass the margin value. */
@@ -650,11 +771,15 @@ body{
             margin-right: 4%;
             margin-top: -22%;
             line-height: 110%;
+            margin-bottom: 10%;
         }
         .recycle_img{
             width: 50%;
             margin-left: 25%;
-            margin-top: 10%;
+            margin-top: 0%;
+        }
+        .nothing1{
+            height: 200px;
         }
         .box1{
             border: solid black 3px;
@@ -663,6 +788,7 @@ body{
             aspect-ratio: 16 / 13;
             border-radius: 10px;
             background-color: #1a791a;
+            /* margin-top: 400px; */
         }
         .box2{
             border: solid 3px black;
@@ -753,10 +879,13 @@ body{
         .contacts{
             width: 100%;
             border: solid 3px black;
-            height: 300px;
+            height: 350px;
             background-color: black;
             color: white;
-            margin-top: 500px;
+            margin-top: 300px;
+        }
+        .nothing{
+            height: 10px;
         }
         .marysville_logo{
             width: 10%;
@@ -769,7 +898,7 @@ body{
             float: right;
             border-radius: 10px;
             margin-right: 1%;
-            margin-top: 0.5%;
+            margin-top: 3%;
         }
         .contact_info1{
             text-decoration: none;
@@ -996,7 +1125,7 @@ body{
     }
     .tons{
         text-align: center;
-        margin-top: -380px;
+        margin-top: 3000px;
         font-size: 150%;
         letter-spacing: 5px;
         font-family: 'Staatliches', cursive;
@@ -1029,6 +1158,9 @@ body{
         width: 50%;
         margin-left: 25%;
         margin-top: 10%;
+    }
+    .nothing1{
+        height: 500px;
     }
     .box1{
         border: solid black 3px;
@@ -1126,8 +1258,8 @@ body{
     .contacts{
         width: fit-content;
         border: solid 3px black;
-        margin-top: 500px;
-        height: 300px;
+        margin-top: 600px;
+        height: 350px;
         background-color: black;
         color: white;
     }
@@ -1180,6 +1312,8 @@ body{
         background-color: white;
         width: 100%;
         overflow-x: hidden; 
+        padding: 0%;
+        margin: 0%;
     }
     
     .nav{
@@ -1297,7 +1431,7 @@ body{
         margin-top: 10%;
     }
     .nothing1{
-        height: 100px;
+        height: 1000px;
     }
     .box1{
         border: solid black 3px;
@@ -1345,7 +1479,7 @@ body{
         text-align: center;
         margin-right: 5%;
         margin-left: 5%;
-        font-size: 300%;
+        font-size: 250%;
         color: white;
         margin-top: 10%;
         line-height: 150%;
@@ -1359,7 +1493,7 @@ body{
         text-align: center;
         margin-right: 5%;
         margin-left: 5%;
-        font-size: 300%;
+        font-size: 250%;
         color: white;
         margin-top: 10%;
         line-height: 150%;
@@ -1373,7 +1507,7 @@ body{
         text-align: center;
         margin-right: 5%;
         margin-left: 5%;
-        font-size: 300%;
+        font-size: 250%;
         color: white;
         margin-top: 10%;
         line-height: 150%;
@@ -1387,7 +1521,7 @@ body{
         text-align: center;
         margin-right: 5%;
         margin-left: 5%;
-        font-size: 300%;
+        font-size: 250%;
         color: white;
         margin-top: 10%;
         line-height: 150%;
@@ -1395,10 +1529,124 @@ body{
     .contacts{
         width: 100%;
         border: solid 3px black;
-        margin-top: 100px;
+        margin-top: 260px;
         height: 450px;
         background-color: black;
         color: white;
+    }
+    @media(min-width: 1900px) {
+        .contacts{
+            width: 100%;
+            border: solid 3px black;
+            margin-top: 450px;
+            height: 600px;
+            background-color: black;
+            color: white;
+        }
+        .nothing{
+            height: 24px;
+            background-color: red;
+        }
+        .contact_info1{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            margin-top: -30%;
+            margin-left: 10%;
+            font-size: 150%;
+        }
+        .contact_info{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            font-size: 150%;
+        }
+    }
+    @media(min-width: 2200px) {
+        .contacts{
+            width: 100%;
+            border: solid 3px black;
+            margin-top: 700px;
+            height: 600px;
+            background-color: black;
+            color: white;
+        }
+        .nothing{
+            background-color: red;
+            height: 40px;
+        }
+        .contact_info1{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            margin-top: -30%;
+            margin-left: 10%;
+            font-size: 150%;
+        }
+        .contact_info{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            font-size: 150%;
+        }
+    }
+    @media(min-width: 2500px) {
+        .contacts{
+            width: 100%;
+            border: solid 3px black;
+            margin-top: 1000px;
+            height: 750px;
+            background-color: black;
+            color: white;
+        }
+        .nothing{
+            background-color: red;
+            height: 50px;
+        }
+        .contact_info1{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            margin-top: -30%;
+            margin-left: 10%;
+            font-size: 200%;
+        }
+        .contact_info{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            font-size: 200%;
+            
+        }
+    }
+    @media(min-width: 2900px) {
+        .contacts{
+            width: 100%;
+            border: solid 3px black;
+            margin-top: 1000px;
+            height: 750px;
+            background-color: black;
+            color: white;
+        }
+        .nothing{
+            background-color: red;
+            height: 60px;
+        }
+        .contact_info1{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            margin-top: -30%;
+            margin-left: 10%;
+            font-size: 200%;
+        }
+        .contact_info{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            font-size: 200%;
+            
+        }
     }
     .marysville_logo{
         width: 10%;
@@ -1414,7 +1662,7 @@ body{
         margin-top: 0.5%;
     }
     .nothing{
-        height: 50px;
+        /* height: 500px; */
     }
     .contact_info1{
         text-decoration: none;
