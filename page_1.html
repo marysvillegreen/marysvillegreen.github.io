@@ -8,6 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kufam&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="page_1.css">
 </head>
 <style>
@@ -15,12 +24,10 @@
 </style>
 <body>
     <nav class="navbar">
-        <!-- <div class="brand-media"> -->
-            <!-- <img class="marysville1_logo" src="tree_testing1.png" alt="Marysville logo"> -->
+        
         <div class="brand-title">
-            Marysville Green
+            <a href="index.html">Marysville Green</a>
         </div>
-        <!-- </div> -->
         <a href="#" class="toggle-button">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -28,27 +35,24 @@
         </a>
         <div class="navbar-links">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Information</a></li>
+            <li><a href="page_1.html">Landfill</a></li>
+            <li><a href="page_2.html">Travel</a></li>
+            <li><a href="page_3.html">Pollution</a></li>
+            <li><a href="page_4.html">Electricity</a></li>
           </ul>
         </div>
       </nav>
     <div class="nav">
         <ul>
-            <li><a href="#">Landfill</a></li>
-            <li><a href="#">Travel</a></li>
+            <li><a href="page_1.html">Landfill</a></li>
+            <li><a href="page_2.html">Travel</a></li>
             <li><a href="#">pic</a></li>
-            <li><a href="#">Pollution</a></li>
-            <li><a href="#">Electricity</a></li>
+            <li><a href="page_3.html">Pollution</a></li>
+            <li><a href="page_4.html">Electricity</a></li>
         </ul>
     </div>
-    <img class="circle_actual_image" src="new_circle.png" alt="lgog of the website"> 
-    <a href="index.html"><img class="circle_image" src="tree_testing1.png" alt="circle"></a>
-    
-      <!-- <img class="marysville1_logo" src="marysville_logo.png" alt="Marysville logo"> -->
-
+    <img class="circle_actual_image" src="/images/new_circle.png" alt="lgog of the website"> 
+    <a href="index.html"><img class="circle_image" src="/images/tree_testing1.png" alt="circle"></a>
       <script>
           const toggleButton = document.getElementsByClassName('toggle-button')[0]
         const navbarLinks = document.getElementsByClassName('navbar-links')[0]
@@ -58,10 +62,7 @@
         })
       </script>
       <div class="buffer_conatiner">This is a buffer container for the navbar</div>
-      <!-- <div class="container">
-          <p class="big_num">22,500</p>
-          <img src="ezgif-5-a05c80e09547.gif" class="landfill" alt="landfill gif">
-      </div> -->
+      <!-- <div class="container1" style="background-image: linear-gradient(110deg, #42378f 0%, #f53844 74%);"> -->
       <div class="container1">
           <script>
               const width  = window.innerWidth || document.documentElement.clientWidth || 
@@ -74,67 +75,73 @@ console.log(width, height);
           <br><br><br><br>
           <p class="big_num">22,500</p>
           <p class="tons">tons</p> <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-          <img src="landfill.gif" class="landfill" alt="landfill gif">
-          <p class="num_info_heading">What is that number</p>
-          <p class="num_info">In 2015, Marysville produced 22,500 tons of waste. Where does this waste go? A lot of them go to landfills and that can be detrimental to the carbon footprint. You may be asking how so? To answer this question, we need to look at the pollutants in our trash, Methane. It is released through the organic matter in landfills. And it accounts for approximately 15.1% of greenhouse gas emissions.</p>
+          <img src="/images/landfill.gif" class="landfill" alt="landfill gif">
+          <p class="num_info_heading" style="font-family: 'Bebas Neue', cursive;">What is that number?</p>
+          <p class="num_info" style="font-family:'Bebas Neue', cursive;">In 2015, Marysville produced 22,500 tons of waste. Where does this waste go? A lot of them go to landfills and that can be detrimental to the carbon footprint. You may be asking how so? To answer this question, we need to look at the pollutants in our trash, Methane. It is released through the organic matter in landfills. And it accounts for approximately 15.1% of greenhouse gas emissions.</p>
       </div>
       <div class="container2">
           
-          <img class="recycle_img" src="black_recycling_img.png" alt="recycle image">
-          <!-- <div class="nothing_recycling"></div> -->
+          <img class="recycle_img" src="images/path57.png" alt="recycle image">
       </div>
       <div class="container3"><br><br><br><br><br><br><br>
         <div class="nothing1"></div>
-          <div class="box1">
-              <h1 class="information1_heading">What is Recycling?</h1>
-              <p class="information1">Recycling is the process of taking something used and reusing the materials for something else. It helps because we have a limited amount of resources on our planet and it can help reduce landfills.</p>
+          <div class="box1" style="background-color: #6617cb;
+          background-image: linear-gradient(90deg, #6617cb 0%, #cb2154 74%);">
+              <h1 class="information1_heading" style="font-family:'Bebas Neue', cursive; letter-spacing: 3px;">What is Recycling?</h1>
+              <p class="information1" style="font-family: 'Oswald', sans-serif;">Recycling is the process of taking something used and reusing the materials for something else. It helps because we have a limited amount of resources on our planet and it can help reduce landfills.</p>
           </div>
-          <div class="box2">
-              <h1 class="information2_heading">Recycling in Marysville</h1>
-              <p class="information2">In Marysville, recycling trucks come and pick up our recyclable materials. Those materials go to get filtered and some will go to factories which will turn those materials into usable products for something else.</p>
+          <div class="box2" style="background-color: #6617cb;
+          background-image: linear-gradient(270deg, #6617cb 0%, #cb2154 74%);">
+              <h1 class="information2_heading" style="font-family:'Bebas Neue', cursive; letter-spacing: 3px">Recycling in Marysville</h1>
+              <p class="information2" style="font-family: 'Oswald', sans-serif;">In Marysville, recycling trucks come and pick up our recyclable materials. Those materials go to get filtered and some will go to factories which will turn those materials into usable products for something else.</p>
           </div>
-          <div class="box3">
-              <h1 class="information3_heading">What to Recycle</h1>
-              <p class="information3">Rigid Plastics/Bottles, Paper and Cardboard, Metals, Glass, Loose Plastic BagsPolystyrene Foam Cups or Containers and Soiled Food Items can be recycled. Clothes, bricks and plasters can be recycled as well.</p>
+          <div class="box3" style="background-color: #6617cb;
+          background-image: linear-gradient(90deg, #6617cb 0%, #cb2154 74%);">
+              <h1 class="information3_heading" style="font-family:'Bebas Neue', cursive; letter-spacing: 3px">What to Recycle</h1>
+              <p class="information3" style="font-family: 'Oswald', sans-serif;">Rigid Plastics/Bottles, Paper and Cardboard, Metals, Glass, Loose Plastic BagsPolystyrene Foam Cups or Containers and Soiled Food Items can be recycled. Clothes, bricks and plasters can be recycled as well.</p>
           </div>
-          <div class="box4">
-              <h1 class="information4_heading">Don't have easy access to recycling?</h1>
-              <p class="information4">If you don't have curbside recycling, you can separate your trash and manually send the recyclables to a recycling drop-off center. The nearest centers for Marysville are Moots recycling and Union recycling</p>
+          <div class="box4" style="background-color: #6617cb;
+          background-image: linear-gradient(270deg, #6617cb 0%, #cb2154 74%);">
+              <h1 class="information4_heading" style="font-family:'Bebas Neue', cursive; letter-spacing: 3px">Don't have easy access to recycling?</h1>
+              <p class="information4" style="font-family: 'Oswald', sans-serif; ">If you don't have curbside recycling, you can separate your trash and manually send the recyclables to a recycling drop-off center. The nearest centers for Marysville are Moots recycling and Union recycling</p>
           </div>
       </div><br>
       <div class="contacts">
-        <a href="https://www.marysvilleohio.org/"><img src="marysville_logo.png" class="marysville_logo" alt="marysville logo"></a>
-            <a href="https://bpa.org/"><img src="bpa_logo.png" class="bpa_logo" alt="bpa logo"></a><br><br><br>
+        <a href="https://www.marysvilleohio.org/"><img src="/images/marysville_logo.png" class="marysville_logo" alt="marysville logo"></a>
+            <a href="https://bpa.org/"><img src="/images/bpa_logo.png" class="bpa_logo" alt="bpa logo"></a><br><br><br>
             <div class="nothing"></div>
-            <a href="#" class="contact_info1">
+            <a href="https://bpa.org/" class="contact_info1">
                 <p>BPA</p>
             </a>
-            <a href="#" class="contact_info">
+            <a href="https://www.marysvilleohio.org/" class="contact_info">
                 <p>Marysville</p>
             </a>
-            <a href="#" class="contact_info">
+            <a href="contact_information.html" class="contact_info">
                 <p>Contact Information</p>
             </a>
-            <a href="#" class="contact_info">
+            <a href="index.html" class="contact_info">
                 <p>Home</p>
             </a>
-            <a href="#" class="contact_info">
+            <a href="page1_html" class="contact_info">
                 <p>Landfill</p>
             </a>
-            <a href="#" class="contact_info">
+            <a href="page_2.html" class="contact_info">
                 <p>travel</p>
             </a>
-            <a href="#" class="contact_info">
+            <a href="page_3.html" class="contact_info">
                 <p>Pollution</p>
             </a>
-            <a href="#" class="contact_info">
+            <a href="page_4.html" class="contact_info">
                 <p>Electricity</p>
             </a>
-            <a href="#" class="contact_info">
+            <a href="attributes.html" class="contact_info">
                 <p >Attribution</p>
             </a>
-    </div>
- 
+        </div>
+        <script>
+            console.log(window.screen.availWidth);
+        </script>
+
 
 </body>
 </html>

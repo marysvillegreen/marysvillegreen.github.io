@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #aqi, #pm10, #Carbon_Monoxide, #Nitrogen_Dioxide{
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>This better work!</h1>
+    <p id="aqi"></p>
+    <p id="pm10"></p>
+    <p id="Carbon_Monoxide"></p>
+    <p id="Nitrogen_Dioxide"></p><br><br><br><br><br>
+
+    <p id="aqi1"></p>
+    <p id="pm101"></p>
+    <p id="Carbon_Monoxide1"></p>
+    <p id="Nitrogen_Dioxide1"></p>
+
+    <script src="api_testing.js"></script>
+    <script>
+        function startLiveUpdate() {
+            setInterval(function () {
+                fetch("https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?city=Marysville&state=Ohio&country=United%20States", {
+                    "method": "GET",
+                    "headers": {
+                        "x-rapidapi-host": "air-quality-by-api-ninjas.p.rapidapi.com",
+                        "x-rapidapi-key": "98f22c2196mshce628127e4e6c54p1bffafjsnce4999408b21"
+                    }
+                })
+                .then(response => response.json())
+                .then(response => {
+                    console.log(response);
+                    document.getElementById('aqi1').innerHTML = "Air quality Index- " + response.overall_aqi;
+                    document.getElementById('pm101').innerHTML = "PM10 value- " + response.overall_aqi;
+                    document.getElementById('Carbon_Monoxide1').innerHTML = "Carbon Monoxide- " + response.CO.concentration;
+                    document.getElementById('Nitrogen_Dioxide1').innerHTML = "Nitrogen Dioxide-" + response.NO2.concentration;
+                })
+                .catch(err => {
+                    console.error(err);
+                });
+ 
+            }, 2000);
+        }
+        document.addEventListener('DOMContentLoaded', function () {
+            startLiveUpdate();
+        });
+    </script>
+</body>
+</html>

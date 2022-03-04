@@ -1,0 +1,1484 @@
+
+body{
+        padding: 0%;
+        margin: 0%;
+        width: 100%;
+        overflow-x: hidden;
+        background-color: blue;
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    
+    .square1{
+        background: url(images/rainbow2.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .square3{
+        background: url(images/rainbow2.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+
+
+
+
+        @media(min-width: 100px){
+            
+        body{
+            background-color: white;
+            padding: 0%;
+            margin: 0%;
+        }
+        .nav{
+            width: 100%;
+            margin-top: 0%;
+            position: fixed;
+        }
+        .nav ul{
+            list-style: none;
+            background: #2c2a2a;
+            /* background: lightcoral; */
+            text-align: center;
+            padding: 0%;
+            margin: 0;
+            /* justify-content: space-between; */
+        }
+        .nav li{
+            display: inline-block;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+            width: 100px;
+            display: block;
+            padding: 15px 30px;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 0.4s;
+        }
+        .nav a:hover{
+            background: #ddd;
+            transition: 0.84s;
+        }
+        .circle_actual_image {
+            width: 8%;
+            margin-top: 10%;
+            margin-left: 47.1%;
+            margin-top: 0%;
+            position: fixed;
+        }
+    
+        .circle_image {
+            float: center;
+            width: 5%;
+            /* height: 25%; */
+            margin-left: 47.5%;
+            /* margin-top: 0.1%; */
+            margin-top: 0.25%;
+            position: fixed;
+        }
+        .container1{
+            width: 100%;
+            height: 620px;
+            margin-top: 0%;
+        }
+        .container2{
+            width: 100%;
+            height: 1100px;
+            margin-top: 0%;
+        }
+        .buffer_conatiner{
+            margin-top: 0%; /* This container is for the navbar to be in the right place and not move down as we pass the margin value. */
+        }
+        
+
+        #car{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 90%;
+            height: 100px;
+            margin-left: 10%;
+            background: url(images/sports_car.png);
+            background-repeat: no-repeat;
+            background-size: 250px;
+            margin-top: 200px;
+            background-position-y: center;
+            /* background-position-x: left; */
+            /* background-position-x: center; */
+            /* background-position: center; */
+            /* background-position: 0 100px; */
+        }
+
+
+
+        .covering_container{
+            /* border: solid red 3px; */
+            /* background-color: red; */
+            background-color: rgba(0, 0, 0, 0);
+        }
+        .square1{
+            width: 90%;
+            /* background-color: lightblue; */
+            background-color: rgba(0, 10, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            border-radius: 10px;
+            border: solid black 3px;
+            /* border: 3px solid black; */
+        }
+        .square1_image{
+            width: 100%;
+        }
+        .square2{
+            width: 90%;
+            /* background-color: lightblue; */
+            background-color: rgba(0, 0, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            margin-top: 20px;
+            border-radius: 10px;
+            /* border: solid black 3px; */
+        }
+        .square2_information{
+            text-align: justify;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+            padding-top: 5%;
+            font-size: larger;
+        }
+
+
+
+
+        
+        .square3{
+            width: 90%;
+            /* background-color: lightblue; */
+            background-color: rgba(0, 0, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            margin-top: 90px;
+            border-radius: 10px;
+            border: solid black 3px;
+            /* border: black solid 3px; */
+        }
+        .square3_image{
+            width: 100%;
+        }
+        .square4{
+            width: 90%;
+            /* background-color: lightblue; */
+            background-color: rgba(0, 0, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            margin-top: 20px;
+            border-radius: 10px;
+            /* border: solid 3px black; */
+        }
+        .square4_information{
+            text-align: justify;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+            padding-top: 5%;
+            font-size: 120%;
+        }
+        .square5{
+            width: 90%;
+            background-color: rgba(0, 0, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            margin-top: 20px;
+            /* border: solid 3px black; */
+        }
+        .square5_information {
+            text-decoration: none;
+            color: black;
+            font-size: 120%;
+        }
+
+        
+        .contacts{
+            width: auto;
+            border: solid 3px black;
+            margin-top: 0px;
+            height: 300px;
+            background-color: black;
+            color: white;
+            margin-bottom: -500px;
+        }
+        .marysville_logo{
+            width: 30%;
+            float: right;
+            margin-top: 25%;
+    
+        }
+        .bpa_logo{
+            width: 20%;
+            float: right;
+            border-radius: 10px;
+            margin-right: -26%;
+            margin-top: 15%;
+        }
+        .breaker{
+            display: none;
+            height: 0px;
+        }
+        .contact_info1{
+            text-decoration: underline;
+            color: white;
+            line-height: 50%;
+            margin-top: -10%;
+    
+        }
+        .contact_info{
+            text-decoration: underline;
+            color: white;
+            line-height: 50%;
+        }
+        .wrapping_div{
+            margin-left: 1%;
+        }
+    }
+
+
+
+
+
+
+
+
+    @media(min-width: 420px){
+        body{
+            background-color: white;
+            padding: 0%;
+            margin: 0%;
+            overflow-x: hidden;
+        }
+        .nav{
+            width: 100%;
+            margin-top: 0%;
+            position: fixed;
+        }
+        .nav ul{
+            list-style: none;
+            background: #2c2a2a;
+            /* background: lightcoral; */
+            text-align: center;
+            padding: 0%;
+            margin: 0;
+            /* justify-content: space-between; */
+        }
+        .nav li{
+            display: inline-block;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+            width: 100px;
+            display: block;
+            padding: 15px 30px;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 0.4s;
+        }
+        .nav a:hover{
+            background: #ddd;
+            transition: 0.84s;
+        }
+        .circle_actual_image {
+            width: 8%;
+            margin-top: 10%;
+            margin-left: 47.1%;
+            margin-top: 0%;
+            position: fixed;
+        }
+    
+        .circle_image {
+            float: center;
+            width: 5%;
+            /* height: 25%; */
+            margin-left: 47.5%;
+            /* margin-top: 0.1%; */
+            margin-top: 0.25%;
+            position: fixed;
+        }
+        .container1{
+            width: 100%;
+            height: 600px;
+            margin-top: 0%;
+        }
+        .container2{
+            width: 100%;
+            height: 800px;
+        }
+        .buffer_conatiner{
+            margin-top: 0%; /* This container is for the navbar to be in the right place and not move down as we pass the margin value. */
+        }
+        
+
+        #car{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 180px;
+            background: url(images/sports_car.png);
+            background-repeat: no-repeat;
+            background-size: 290px;
+            margin-top: 150px;
+            background-position-y: center;
+            /* background-position: 0 100px; */
+        }
+        @media (min-width: 600px){
+            #car{
+                position:fixed;
+                top: 0;
+                left: 0;
+                width: 75%;
+                float: right;
+                margin-left: 25%;
+                height: 180px;
+                background: url(images/sports_car.png);
+                background-repeat: no-repeat;
+                background-size: 330px;
+                margin-top: 159px;
+                background-position-y: center;
+                background-position-x: left;
+                /* background-position: center center; */
+                /* background-position: 0 100px; */
+            }
+            .container1{
+                width: 100%;
+                height: 700px;
+                margin-top: 0%;
+            }
+        }
+
+
+
+
+        .covering_container{
+            /* border: solid red 3px; */
+            /* background-color: red; */
+            background-color: rgba(0, 0, 0, 0);
+        }
+        .square1{
+            width: 90%;
+            /* background-color: lightblue; */
+            background-color: rgba(0, 0, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            border: 3px solid black;
+        }
+        .square1_image{
+            width: 100%;
+            margin-top: -50px;
+        }
+        .square2{
+            width: 90%;
+            /* background-color: lightblue; */
+            background-color: rgba(0, 0, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            margin-top: 20px;
+            /* border: solid black 3px; */
+        }
+        .square2_information{
+            text-align: justify;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+            font-size: 3.9vw;
+        }
+
+
+
+
+        
+        .square3{
+            width: 90%;
+            /* background-color: lightblue; */
+            background-color: rgba(0, 0, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            margin-top: 90px;
+            border: black solid 3px;
+        }
+        .square3_image{
+            width: 100%;
+            margin-top: -50px;
+        }
+        .square4{
+            width: 90%;
+            /* background-color: lightblue; */
+            background-color: rgba(0, 0, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            margin-top: 20px;
+            /* border: solid 3px black; */
+            font-size: 3vw;
+        }
+        .square4_information{
+            text-align: justify;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+        }
+        .square5{
+            width: 90%;
+            background-color: rgba(0, 0, 0, 0);
+            margin-left: 5%;
+            height: 200px;
+            margin-top: 20px;
+            /* border: solid 3px black; */
+        }
+        .square5_information {
+            text-decoration: none;
+            color: black;
+            font-size: 3vw;
+            text-align: justify;
+            padding-right: 5%;
+
+        }
+        @media(min-width: 600px) {
+            .square1_image{
+                width: 100%;
+                margin-top: -130px;
+            }
+            .square3_image{
+                width: 100%;
+                margin-top: -130px;
+            }
+        }
+
+
+
+
+
+        .contacts{
+            width: auto;
+            border: solid 3px black;
+            margin-top: 500px;
+            height: 300px;
+            background-color: black;
+            color: white;
+            margin-top: 500px;
+        }
+        .marysville_logo{
+            width: 30%;
+            float: right;
+            margin-top: 25%;
+    
+        }
+        .bpa_logo{
+            width: 20%;
+            float: right;
+            border-radius: 10px;
+            margin-right: -26%;
+            margin-top: 15%;
+        }
+        @media (min-width: 520px) {
+            .contacts{
+                width: auto;
+                border: solid 3px black;
+                height: 300px;
+                background-color: black;
+                color: white;
+                margin-top: 400px;
+            }
+        }
+        @media (min-width: 620px) {
+            .contacts{
+                width: auto;
+                border: solid 3px black;
+                margin-top: 500px;
+                height: 300px;
+                background-color: black;
+                color: white;
+                margin-top: 500px;
+            }
+        }
+        @media (min-width: 720px) {
+            .contacts{
+                width: auto;
+                border: solid 3px black;
+                /* margin-top: 500px; */
+                height: 300px;
+                background-color: black;
+                color: white;
+                margin-top: 600px;
+            }
+            .marysville_logo{
+                width: 30%;
+                float: right;
+                margin-top: 20%;
+        
+            }
+            .bpa_logo{
+                width: 20%;
+                float: right;
+                border-radius: 10px;
+                margin-right: -26%;
+                margin-top: 10%;
+            }
+        }
+        
+        .contact_info1{
+            text-decoration: underline;
+            color: white;
+            line-height: 50%;
+            margin-top: -10%;
+    
+        }
+        .contact_info{
+            text-decoration: underline;
+            color: white;
+            line-height: 50%;
+        }
+        .wrapping_div{
+            margin-left: 1%;
+        }
+    }
+
+
+
+
+
+
+
+
+    @media (min-width: 820px) {
+        body{
+            background-color: white;
+            overflow-x: hidden;
+            width: 100%;
+            height: 100%;
+            padding: 0%;
+            margin: 0%;
+        }
+        .nav{
+            width: 100%;
+            margin-top: 0%;
+            position: fixed;
+        }
+        .nav ul{
+            list-style: none;
+            background: #2c2a2a;
+            /* background: lightcoral; */
+            text-align: center;
+            padding: 0%;
+            margin: 0;
+            /* justify-content: space-between; */
+        }
+        .nav li{
+            display: inline-block;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #fff;
+            width: 100px;
+            display: block;
+            padding: 15px 30px;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 0.4s;
+            letter-spacing: 4px;
+        }
+        .nav a:hover{
+            background: #ddd;
+            transition: 0.84s;
+        }
+        .circle_actual_image {
+            width: 8%;
+            margin-top: 10%;
+            margin-left: 47.1%;
+            margin-top: 0%;
+            position: fixed;
+        }
+    
+        .circle_image {
+            float: center;
+            width: 5%;
+            /* height: 25%; */
+            margin-left: 47.5%;
+            /* margin-top: 0.1%; */
+            margin-top: 0.25%;
+            position: fixed;
+        }
+        .container1{
+            width: 100%;
+            height: 950px;
+            margin-top: 0%;
+        }
+        .container2{
+            width: 100%;
+            height: 1000px;
+        }
+        .container3{
+            width: 100%;
+            height: 800px;
+        }
+        .buffer_conatiner{
+            margin-top: 0%; /* This container is for the navbar to be in the right place and not move down as we pass the margin value. */
+        }
+        
+        #car{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 200px;
+            background: url(images/sports_car.png);
+            background-repeat: no-repeat;
+            background-size: 370px;
+            margin-top: 159px;
+            background-position-y: center;
+            /* background-position: 0 100px; */
+        }
+        @media(min-width: 1000px) {
+            #car{
+                position:fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 350px;
+                background: url(images/sports_car.png);
+                background-repeat: no-repeat;
+                background-size: 750px;
+                margin-top: 159px;
+                background-position-y: center;
+                /* background-position: 0 100px; */
+            }
+            .container1{
+                width: 100%;
+                height: 1100px;
+                /* background-image: linear-gradient(rgb(0, 73, 50), rgb(81, 114, 105)); */
+                margin-top: 0%;
+            }
+        }
+        @media(min-width: 1200px) {
+            #car{
+                position:fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 400px;
+                background: url(images/sports_car.png);
+                background-repeat: no-repeat;
+                background-size: 850px;
+                margin-top: 159px;
+                background-position-y: center;
+                /* background-position: 0 100px; */
+            }
+            .container1{
+                width: 100%;
+                height: 1350px;
+                /* background-image: linear-gradient(rgb(0, 73, 50), rgb(81, 114, 105)); */
+                margin-top: 0%;
+            }
+        }
+
+
+        .covering_container{
+            /* border: solid red 3px; */
+            /* background-color: red; */
+            background-color: rgba(0, 0, 0, 0);
+        }
+        .square_wrapper{
+            display: inline-block;
+        }
+        .square1{
+            
+            display: block;
+            float: left;
+        
+            border-radius: 20px;
+            width: 35%;
+            Height: 60%;
+            aspect-ratio: 16 / 12;
+            margin-left: 10%;
+            /* margin-top: 10px; */
+        }
+        .square1_image{
+            width: 100%;
+            margin-top: -150px;
+        }
+        .square2{
+            display: block;
+            float: right;
+        
+            border-radius: 20px;
+            width: 35%;
+            Height: 60%;
+            aspect-ratio: 16 / 12;
+            margin-right: 10%;
+            margin-top: -.1%;
+            border: solid black 3px;
+        }
+        .square2_information{
+            text-align: justify;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+            font-size: 2.3vw;
+            /* line-height: 90%; */
+        }
+
+
+
+
+        
+        .square3{
+            display: block;
+            float: right;
+        
+            border-radius: 20px;
+            width: 35%;
+            Height: 60%;
+            aspect-ratio: 16 / 12;
+            margin-right: 10%;
+            border: solid 3px black;
+            margin-top: 5.5%;
+        }
+        .square3_image{
+            width: 100%;
+            margin-top: -150px;
+        }
+        .square4{
+            
+            display: block;
+            float: center;
+        
+            border-radius: 20px;
+            width: 35%;
+            Height: 60%;
+            aspect-ratio: 16 / 12;
+            margin-left: 10%;
+            margin-top: 7%;
+            margin-top: 5%;
+            border: solid 3px black;
+        }
+        
+        .square4_information{
+            text-align: justify;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+            font-size: 2.3vw;
+        }
+        .square5{
+            display: block;
+            float: center;
+        
+            border-radius: 20px;
+            width: 35%;
+            Height: 60%;
+            aspect-ratio: 16 / 12;
+            margin-left: 32.5%;
+            margin-top: 10%;
+            border: black solid 3px;
+        }
+        .square5_information {
+            text-decoration: none;
+            color: black;
+            font-size: 2vw;
+            text-align: justify;
+            padding-right: 5%;
+
+        }
+
+
+
+        .contacts{
+            width: auto;
+            border: solid 3px black;
+            height: 350px;
+            background-color: black;
+            color: white;
+            margin-top: 300px;
+        }
+        .nothing{
+            height: 10px;
+        }
+        .marysville_logo{
+            width: 10%;
+            float: left;
+            margin-top: 0.5%;
+    
+        }
+        .bpa_logo{
+            width: 15%;
+            float: right;
+            border-radius: 10px;
+            margin-right: 1%;
+            margin-top: 3%;
+        }
+        .contact_info1{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+    
+        }
+        .contact_info{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+        }
+        @media(min-width: 1190px) {
+            .contacts{
+                width: auto;
+                border: solid 3px black;
+                height: 350px;
+                background-color: black;
+                color: white;
+                margin-top: 530px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    @media (max-width: 820px) {
+    .brand-media{
+    display: inline-flex;
+    }
+    .navbar {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #2c2a2a;
+        color: white;
+        margin-top: 0%;
+    }
+
+    .brand-title {
+        font-size: 2rem;
+        margin: .5rem;
+        display: inline-flex;
+        /* position: fixed; */
+    }
+
+    .brand-title a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar-links {
+        height: 100%;
+    }
+
+    .navbar-links ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-links li {
+        list-style: none;
+    }
+
+    .navbar-links li a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 1rem;
+    }
+
+    .navbar-links li:hover {
+        background-color: rgb(104, 104, 104);
+    }
+
+    .toggle_button {
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+
+    .toggle_button .bar {
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle_button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .circle_actual_image{
+        display: none;
+    }
+    .circle_image{
+        display: none;
+    }
+    .container{
+        width: 99.4%;
+        height: 1000px;
+        background-color: lightblue;
+        /* border: solid 3px black; */
+        /* padding-top: 100px; */
+    }
+    .nav{
+        display: none;
+    }
+    .buffer_conatiner{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1405px) {
+    .nav{
+        width: 100%;
+        margin-top: 0%;
+        position: fixed;
+    }
+    .nav ul{
+        list-style: none;
+        background: #2c2a2a;
+        /* background: lightcoral; */
+        text-align: center;
+        padding: 0%;
+        margin: 0;
+        /* justify-content: space-between; */
+    }
+    .nav li{
+        display: inline-block;
+    }
+    .nav a {
+        text-decoration: none;
+        color: #fff;
+        width: 100px;
+        display: block;
+        padding: 15px 80px;
+        font-size: 19px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 0.4s;
+    }
+    .nav a:hover{
+        background: #ddd;
+        transition: 0.84s;
+    }
+    .circle_actual_image {
+        width: 8%;
+        margin-top: 10%;
+        margin-left: 47.1%;
+        margin-top: 0%;
+        position: fixed;
+    }
+
+    .circle_image {
+        float: center;
+        width: 5%;
+        /* height: 25%; */
+        margin-left: 47.5%;
+        /* margin-top: 0.1%; */
+        margin-top: 0.25%;
+        position: fixed;
+    }
+    .container1{
+        width: 100%;
+        height: 1350px;
+        /* background-image: linear-gradient(rgb(0, 73, 50), rgb(81, 114, 105)); */
+        /* background-color: whitesmoke; */
+        margin-top: 0%;
+    }
+    .container2{
+        width: 100%;
+        height: 1000px;
+        /* background-image: linear-gradient(rgb(81, 114, 105), rgb(255, 255, 255)); */
+        /* background-color: red; */
+        /* margin-top: 2%; */
+    }
+    /* .container3{
+        width: 100%;
+        height: 1000px;
+        background-image: linear-gradient(rgb(255, 255, 255));
+    } */
+    .buffer_conatiner{
+        margin-top: 0%; /* This container is for the navbar to be in the right place and not move down as we pass the margin value. */
+    }
+
+
+    #car{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 450px;
+        background: url(images/sports_car.png);
+        background-repeat: no-repeat;
+        background-size: 950px;
+        margin-top: 159px;
+        background-position-y: center;
+        /* background-position: 0 100px; */
+    }
+    
+
+
+
+    .contacts{
+        width: fit-content;
+        border: solid 3px black;
+        margin-top: 600px;
+        height: 350px;
+        background-color: black;
+        color: white;
+    }
+    @media(min-width: 1490px) {
+        .contacts{
+            width: auto;
+            border: solid 3px black;
+            height: 350px;
+            background-color: black;
+            color: white;
+            margin-top: 840px;
+        }
+    }
+    .contacts_wrapper{
+        width: fit-content;
+        height: 1000px;
+        background-color: white;
+    }
+    .marysville_logo{
+        width: 10%;
+        float: left;
+        margin-top: 0.5%;
+
+    }
+    .bpa_logo{
+        width: 15%;
+        float: right;
+        border-radius: 10px;
+        margin-right: 1%;
+        margin-top: 0.5%;
+    }
+    .nothing{
+        height: 20px;
+    }
+    .contact_info1{
+        text-decoration: none;
+        color: white;
+        line-height: 50%;
+
+    }
+    .contact_info{
+        text-decoration: none;
+        color: white;
+        line-height: 50%;
+    }
+    .wrapping_div{
+        margin-left: 1%;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width: 1692px) {
+    body{
+        background-color: white;
+        width: 100%;
+        overflow-x: hidden; 
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    .nav{
+        width: 100%;
+        margin-top: 0%;
+        position: fixed;
+    }
+    .nav ul{
+        list-style: none;
+        background: #2c2a2a;
+        /* background: lightcoral; */
+        text-align: center;
+        padding: 0%;
+        margin: 0;
+        /* justify-content: space-between; */
+    }
+    .nav li{
+        display: inline-block;
+    }
+    .nav a {
+        text-decoration: none;
+        color: #fff;
+        width: 100px;
+        display: block;
+        padding: 15px 80px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 0.4s;
+    }
+    .nav a:hover{
+        background: #ddd;
+        transition: 0.84s;
+    }
+    .circle_actual_image {
+        width: 8%;
+        margin-top: 10%;
+        margin-left: 47.1%;
+        margin-top: 0%;
+        position: fixed;
+    }
+
+    .circle_image {
+        float: center;
+        width: 5%;
+        /* height: 25%; */
+        margin-left: 47.5%;
+        /* margin-top: 0.1%; */
+        margin-top: 0.25%;
+        position: fixed;
+    }
+    .container1{
+        width: 100%;
+        height: 1750px;
+        /* background-image: linear-gradient(rgb(0, 73, 50), rgb(81, 114, 105)); */
+        margin-top: 0%;
+    }
+    .container2{
+        width: 100%;
+        height: 1000px;
+        /* background-image: linear-gradient(rgb(81, 114, 105), rgb(255, 255, 255)); */
+        /* margin-top: 2%; */
+    }
+    /* .container3{
+        width: 100%;
+        height: 2000px;
+        background-image: linear-gradient(rgb(255, 255, 255));
+        margin-top: 300px;
+    } */
+    .buffer_conatiner{
+        margin-top: 0%; /* This container is for the navbar to be in the right place and not move down as we pass the margin value. */
+    }
+    #car{
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 600px;
+        background: url(images/sports_car.png);
+        background-repeat: no-repeat;
+        background-size: 1250px;
+        margin-top: 159px;
+        background-position-y: center;
+        /* background-position: 0 100px; */
+    }
+    @media(min-width: 1800px){
+        #car{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 650px;
+            background: url(images/sports_car.png);
+            background-repeat: no-repeat;
+            background-size: 1350px;
+            margin-top: 159px;
+            background-position-y: center;
+        }
+        .container1{
+            width: 100%;
+            height: 1950px;
+            /* background-image: linear-gradient(rgb(0, 73, 50), rgb(81, 114, 105)); */
+            margin-top: 0%;
+        }
+    }
+    @media(min-width: 2000px){
+        #car{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 700px;
+            background: url(images/sports_car.png);
+            background-repeat: no-repeat;
+            background-size: 1350px;
+            margin-top: 159px;
+            background-position-y: center;
+            /* background-position: 0 100px; */
+        }
+        .container1{
+            width: 100%;
+            height: 2150px;
+            /* background-image: linear-gradient(rgb(0, 73, 50), rgb(81, 114, 105)); */
+            margin-top: 0%;
+        }
+    }
+    @media(min-width: 2200px){
+        #car{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 800px;
+            background: url(images/sports_car.png);
+            background-repeat: no-repeat;
+            background-size: 1450px;
+            margin-top: 159px;
+            background-position-y: center;
+            /* background-position: 0 100px; */
+        }
+        .container1{
+            width: 100%;
+            height: 2350px;
+            /* background-image: linear-gradient(rgb(0, 73, 50), rgb(81, 114, 105)); */
+            margin-top: 0%;
+        }
+    }
+    @media(min-width: 2400px){
+        #car{
+            position:fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 800px;
+            background: url(images/sports_car.png);
+            background-repeat: no-repeat;
+            background-size: 1550px;
+            margin-top: 159px;
+            background-position-y: center;
+            /* background-position: 0 100px; */
+        }
+        .container1{
+            width: 100%;
+            height: 2550px;
+            /* background-image: linear-gradient(rgb(0, 73, 50), rgb(81, 114, 105)); */
+            margin-top: 0%;
+        }
+    }
+    
+
+
+
+
+
+
+    .contacts{
+        width: auto;
+        border: solid 3px black;
+        margin-top: 1050px;
+        height: 450px;
+        background-color: black;
+        color: white;
+    }
+    @media(min-width: 1900px) {
+        .contacts{
+            width: auto;
+            border: solid 3px black;
+            margin-top: 1250px;
+            height: 600px;
+            background-color: black;
+            color: white;
+        }
+        .nothing{
+            height: 24px;
+            background-color: black;
+        }
+        .contact_info1{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            margin-top: -30%;
+            margin-left: 10%;
+            font-size: 150%;
+        }
+        .contact_info{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            font-size: 150%;
+        }
+    }
+    @media(min-width: 2100px) {
+        .contacts{
+            width: auto;
+            border: solid 3px black;
+            margin-top: 1350px;
+            height: 600px;
+            background-color: black;
+            color: white;
+        }
+    }
+    @media(min-width: 2200px) {
+        .contacts{
+            width: auto;
+            border: solid 3px black;
+            margin-top: 1550px;
+            height: 600px;
+            background-color: black;
+            color: white;
+        }
+        .nothing{
+            background-color: black;
+            height: 40px;
+        }
+        .contact_info1{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            margin-top: -30%;
+            margin-left: 10%;
+            font-size: 150%;
+        }
+        .contact_info{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            font-size: 150%;
+        }
+    }
+    @media(min-width: 2400px) {
+        .contacts{
+            width: auto;
+            border: solid 3px black;
+            margin-top: 1750px;
+            height: 750px;
+            background-color: black;
+            color: white;
+        }
+        .nothing{
+            background-color: black;
+            height: 50px;
+        }
+        .contact_info1{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            margin-top: -30%;
+            margin-left: 10%;
+            font-size: 200%;
+        }
+        .contact_info{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            font-size: 200%;
+            
+        }
+    }
+    @media(min-width: 2900px) {
+        .contacts{
+            width: auto;
+            border: solid 3px black;
+            margin-top: 1000px;
+            height: 750px;
+            background-color: black;
+            color: white;
+        }
+        .nothing{
+            background-color: black;
+            height: 60px;
+        }
+        .contact_info1{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            margin-top: -30%;
+            margin-left: 10%;
+            font-size: 200%;
+        }
+        .contact_info{
+            text-decoration: none;
+            color: white;
+            line-height: 50%;
+            font-size: 200%;
+            
+        }
+    }
+    .marysville_logo{
+        width: 10%;
+        float: left;
+        margin-top: 0.5%;
+        margin-bottom: 0.1%;
+    }
+    .bpa_logo{
+        width: 15%;
+        float: right;
+        border-radius: 10px;
+        margin-right: 1%;
+        margin-top: 0.5%;
+    }
+    .nothing{
+        /* height: 500px; */
+    }
+    .contact_info1{
+        text-decoration: none;
+        color: white;
+        line-height: 50%;
+        margin-top: 30%;
+        margin-left: 10%;
+
+    }
+    .contact_info{
+        text-decoration: none;
+        color: white;
+        line-height: 100%;
+        
+    }
+}

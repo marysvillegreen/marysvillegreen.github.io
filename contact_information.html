@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centered navigation bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="contact_information.css">
+</head>
+<style>
+    
+    
+    
+</style>
+<body style="background-image: linear-gradient(0deg, #a4508b 0%, #42378f 74%);">
+    <!-- here por favorñññ-->
+    <nav class="navbar">
+        
+        <div class="brand-title">
+            <a href="index.html">Marysville Green</a>
+            <!-- Marysville Green -->
+        </div>
+        <a href="#" class="toggle_button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="page_1.html">Landfill</a></li>
+            <li><a href="page_2.html">Travel</a></li>
+            <li><a href="page_3.html">Pollution</a></li>
+            <li><a href="page_4.html">Electricity</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="nav">
+        <ul>
+            <li><a href="page_1.html">Landfill</a></li>
+            <li><a href="page_2.html">Travel</a></li>
+            <li><a href="#">pic</a></li>
+            <li><a href="page_3.html">Pollution</a></li>
+            <li><a href="page_4.html">Electricity</a></li>
+        </ul>
+    </div>
+    <img class="circle_actual_image" src="/images/new_circle.png" alt="lgog of the website"> 
+    <a href="index.html"><img class="circle_image" src="/images/tree_testing1.png" alt="circle"></a>
+      <script>
+          const toggleButton = document.getElementsByClassName('toggle_button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+          navbarLinks.classList.toggle('active')
+        })
+      </script>
+      <div class="buffer_conatiner">This is a buffer container for the navbar</div><br><br><br>
+      <div class="container1">
+        <div class="jayden">
+            <img src="images/jayden.jpg" class="jayden_image"  alt="image of jayden">
+            <p class="contact_page_information">Jayden Laewis</p>
+            <p class="contact_page_information">programmer</p>
+            <a href="mailto:example@gmail.com" class="contact_page_information">Jayden's Email</a>
+        </div>
+        <div class="naveen">
+            <img src="images/naveen_img.png" class="naveen_image" alt="image of naveen">
+            <p class="contact_page_information">Naveen Karthik Gananavelan</p>
+            <p class="contact_page_information">Information Gatherer</p>
+            <a href="mailto:example@gmail.com" class="contact_page_information">Naveen's Email</a>
+        </div>
+        <div class="stevie">
+            <img src="images/steive_img.png" class="stevie_image" alt="image of stevie">
+            <p class="contact_page_information">Stevie Rajesh</p>
+            <p class="contact_page_information">Designer</p>
+            <a href="mailto:example@gmail.com" class="contact_page_information">Stevis's Email</a>
+        </div>
+        <div class="raghav">
+            <img src="images/raghav_img.png" class="raghav_image" alt="Image of raghav">
+            <p class="contact_page_information">Raghav Jagan</p>
+            <p class="contact_page_information">programmer</p>
+            <a href="mailto:rjagan@mevad.us"  class="contact_page_information">Raghav's Email</a>
+        </div>
+      </div>
+      
+      
+      <div class="contacts">
+        <a href="https://www.marysvilleohio.org/"><img src="/images/marysville_logo.png" class="marysville_logo" alt="marysville logo"></a>
+            <a href="https://bpa.org/"><img src="/images/bpa_logo.png" class="bpa_logo" alt="bpa logo"></a><br><br><br>
+            <div class="nothing"></div>
+            <a href="#" class="contact_info1">
+                <p>BPA</p>
+            </a>
+            <a href="#" class="contact_info">
+                <p>Marysville</p>
+            </a>
+            <a href="#" class="contact_info">
+                <p>Contact Information</p>
+            </a>
+            <a href="#" class="contact_info">
+                <p>Home</p>
+            </a>
+            <a href="#" class="contact_info">
+                <p>Landfill</p>
+            </a>
+            <a href="#" class="contact_info">
+                <p>travel</p>
+            </a>
+            <a href="#" class="contact_info">
+                <p>Pollution</p>
+            </a>
+            <a href="#" class="contact_info">
+                <p>Electricity</p>
+            </a>
+            <a href="#" class="contact_info">
+                <p >Attribution</p>
+            </a>
+        </div>
+
+        <!-- <script>
+            const width  = window.innerWidth || document.documentElement.clientWidth || 
+document.body.clientWidth;
+const height = window.innerHeight|| document.documentElement.clientHeight|| 
+document.body.clientHeight;
+
+console.log(width, height);
+
+        </script> -->
+        
+
+       
+
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centered navigation bar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="page_2.css">
+</head>
+<style>
+    
+    
+    
+</style>
+<body style="background-color: #fc5296;
+background-image: linear-gradient(315deg, #fc5296 0%, #f67062 74%); 
+">
+    <!-- here por favorñññ-->
+    <nav class="navbar">
+        
+        <div class="brand-title">
+            <a href="index.html">Marysville Green</a>
+            <!-- Marysville Green -->
+        </div>
+        <a href="#" class="toggle_button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="page_1.html">Landfill</a></li>
+            <li><a href="page_2.html">Travel</a></li>
+            <li><a href="page_3.html">Pollution</a></li>
+            <li><a href="page_4.html">Electricity</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="nav">
+        <ul>
+            <li><a href="page_1.html">Landfill</a></li>
+            <li><a href="page_2.html">Travel</a></li>
+            <li><a href="#">pic</a></li>
+            <li><a href="page_3.html">Pollution</a></li>
+            <li><a href="page_4.html">Electricity</a></li>
+        </ul>
+    </div>
+    <img class="circle_actual_image" src="/images/new_circle.png" alt="lgog of the website"> 
+    <a href="index.html"><img class="circle_image" src="/images/tree_testing1.png" alt="circle"></a>
+      <script>
+          const toggleButton = document.getElementsByClassName('toggle_button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+          navbarLinks.classList.toggle('active')
+        })
+      </script>
+      <div class="buffer_conatiner">This is a buffer container for the navbar</div>
+      <div class="container1">
+        This is cotainer 1
+        <div id="car"></div>
+      </div>
+      <div class="container2">
+          <div class="covering_container">
+              <div class="square_wrapper">
+                  <div class="square1">
+                      <!-- image  -->
+                      <!-- <img class="square1_image"  src="images/car_tempo_image.jpg" alt="image of a car"> -->
+                  </div>
+                  <div class="square2" style="background-color: #000000;
+                  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);">
+                      <p class="square2_information" style="color: white; font-family: 'League Gothic', sans-serif;">The traveling culture in Marysville is similar to the traveling culture in the rest of the  United States. Cars are used everywhere and there is no infrastructure for public transit other than the school buses Marysville provides to their students. What can we do?</p>
+                  </div>
+              </div>
+              <div class="square3">
+                  <!-- image -->
+                  <!-- <img class="square3_image"  src="images/sports_car.png" alt="image of a car"> -->
+              </div>
+              <div class="square4" style="background-color: #000000;
+              background-image: linear-gradient(-315deg, #000000 0%, #414141 74%);">
+                  <p class="square4_information" style="color: white; font-family: 'League Gothic', sans-serif; ">Things Marysville can do is specifically implement the basis for a public transport system, but since that takes a lot of money and time and brings Marysville into urbanization too fast, citizens can help bring down car usage. Below is a list of things we can do.</p>
+              </div>
+              <div class="square5">
+                  <ul class="square5_information" style="font-family: 'League Gothic', sans-serif; color: white;">
+                      <li>Use bikes to get around to places, great exercise.</li>
+                      <li>Carpool with friends. This will bring down emissions of greenhouse gases and will reduce traffic by removing cars from the road</li>
+                      <li>Choose fuel-efficient vehicles</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      
+      <div class="contacts">
+        <a href="https://www.marysvilleohio.org/"><img src="/images/marysville_logo.png" class="marysville_logo" alt="marysville logo"></a>
+            <a href="https://bpa.org/"><img src="/images/bpa_logo.png" class="bpa_logo" alt="bpa logo"></a><br><br><br>
+            <div class="nothing"></div>
+            <a href="https://bpa.org/" class="contact_info1">
+                <p>BPA</p>
+            </a>
+            <a href="https://www.marysvilleohio.org/" class="contact_info">
+                <p>Marysville</p>
+            </a>
+            <a href="contact_information.html" class="contact_info">
+                <p>Contact Information</p>
+            </a>
+            <a href="index.html" class="contact_info">
+                <p>Home</p>
+            </a>
+            <a href="page1_html" class="contact_info">
+                <p>Landfill</p>
+            </a>
+            <a href="page_2.html" class="contact_info">
+                <p>travel</p>
+            </a>
+            <a href="page_3.html" class="contact_info">
+                <p>Pollution</p>
+            </a>
+            <a href="page_4.html" class="contact_info">
+                <p>Electricity</p>
+            </a>
+            <a href="attributes.html" class="contact_info">
+                <p >Attribution</p>
+            </a>
+        </div>
+
+        <!-- <script>
+            const width  = window.innerWidth || document.documentElement.clientWidth || 
+document.body.clientWidth;
+const height = window.innerHeight|| document.documentElement.clientHeight|| 
+document.body.clientHeight;
+
+console.log(width, height);
+
+        </script> -->
+        <script>
+            var movement = document.getElementById("car")
+            window.addEventListener("scroll", function() {
+                // document.getElementById('car').style.backgroundPositionY = "center";
+                movement.style.backgroundPosition = +window.pageYOffset+"px";
+                // document.getElementById('car').style.backgroundPosition = "center";
+            })
+        </script>
+
+       
+
+</body>
+</html>

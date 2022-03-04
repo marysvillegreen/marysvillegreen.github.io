@@ -4,31 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARYSVILE-GREEN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kufam&family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="ani.css">
     <title>Document</title>
 </head>
-<body>
+<body onload="circlesize(4)">
+    <!-- <div class="style_nav"></div>
+    <img src="images/new_circle.png" alt="navbar circle" class="nav_cirlce_decoration"> -->
+    <nav class="navbar">
+        
+        <div class="brand-title">
+            <a href="index.html">Marysville Green</a>
+        </div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="page_1.html">Landfill</a></li>
+            <li><a href="page_2.html">Travel</a></li>
+            <li><a href="page_3.html">Pollution</a></li>
+            <li><a href="page_4.html">Electricity</a></li>
+          </ul>
+        </div>
+      </nav>
+      <script>
+          const toggleButton = document.getElementsByClassName('toggle-button')[0]
+        const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+        toggleButton.addEventListener('click', () => {
+          navbarLinks.classList.toggle('active')
+        })
+      </script>
+    <!-- <center>
+        <div id="transparent_Circle">
+            
+        </div>
+    </center> -->
+        <div id="comapss">
+            <center>
+                <div>
+                    <canvas id="comdraw" width="800" height="800" >
+                    </canvas>
+                </div>
+            </center>
+        </div>
     
     <!-- <div class="square-wrapper">
         <div class="square"></div>
     </div> -->
+    <center>
+        <img src="images/tree_testing1.png" alt="Logo of the website" class="logo_website">
+    </center>
     
     <div class="external-square">
         <center>
-            <div class="square square-transition">
+            <div class="square square-transition" style="background-color: #42378f;
+            background-image: linear-gradient(360deg, #42378f 0%, #f53844 74%);">
                 <section>
                     <section class="child1">
-                        <img class="image1" src="path57.png" alt="raghavJagan">
+                        <img class="image1" src="images/path57.png" alt="raghavJagan">
                     </section>
                     <section class="dad">
-                        <p class="p0">Landfills</p><p class="p1" > </p>
+                        <p class="p0" style="font-family: 'League Gothic', sans-serif; letter-spacing: 3px;">Landfills</p><p class="p1" > </p>
                     </section>
                 </section>
                 <div class="conta">
-                    <p class="t1">Landfills are a very big pollutant for our atmosphere, learn more about them and how they affect our enviroment here! </p>
+                    <p class="t1" style="font-family: 'Bebas Neue', cursive;">Landfills are a very big pollutant for our atmosphere and to learn more about them and how they affect our enviroment click here! </p>
                 </div>
                 <a href="page_1.html" target="_parent" width="50px">
-                    <button class="button1"><span><center><P class="n1">Next</p></center></span></button>
+                    <button class="button1"><span><P class="n1">Next</p></span></button>
                 </a>            
             </div>
         </center>
@@ -36,20 +98,21 @@
     <div class="container"></div>
     <div class="external-square">
         <center>
-            <div class="square square-transition">
+            <div class="square square-transition" style="background-color: #a4508b;
+            background-image: linear-gradient(0deg, #a4508b 0%, #42378f 74%);">
                 <section>
                     <section class="child1">
-                        <img class="image" src="Bycycle.png" alt="raghavJagan">
+                        <img class="image" src="images/Bycycle.png" alt="raghavJagan">
                     </section>
                     <section class="dad">
-                        <p class="p0">Travel</p><p class="p1" > </p>
+                        <p class="p0"style="font-family: 'League Gothic', sans-serif; letter-spacing: 3px;">Travel</p><p class="p1" > </p>
                     </section>
                 </section>
                 <div class="conta">
-                    <p class="t1">Most people in Marysville own more than 2 cars and use them to get to places that are within walkable distance. Click here to learn more!</p>
+                    <p class="t1"style="font-family: 'Bebas Neue', cursive;">Most people in Marysville own more than 2 cars and use them to get to places that are within walkable distance. Click here to learn more!</p>
                 </div>
                 <a href="page_2.html" target="_parent" width="50px">
-                    <button class="button1"><span><center><P class="n1">Next</p></center></span></button>
+                    <button class="button2"><span><center><P class="n1">Next</p></center></span></button>
                 </a>            
             </div>
         </center>
@@ -57,17 +120,18 @@
     <div class="container"></div>
     <div class="external-square">
         <center>
-            <div class="square square-transition">
+            <div class="square square-transition" style="background-color: #a4508b;
+            background-image: linear-gradient(180deg, #a4508b 0%, #5f0a87 74%);">
                 <section>
                     <section class="child1">
-                        <img class="image" src="greenhouse.png" alt="raghavJagan">
+                        <img class="image" src="images/greenhouse.png" alt="raghavJagan">
                     </section>
                     <section class="dad">
-                        <p class="p0">Greenhouse Gases</p><p class="p1" > </p>
+                        <p class="p01"style="font-family: 'League Gothic', sans-serif; letter-spacing: 3px;">Greenhouse Gases</p><p class="p1" > </p>
                     </section>
                 </section>
                 <div class="conta">
-                    <p class="t1">Recycling is a very important thing to do in any community, but in marysville it is essential to keeping this towns cleanliness and renewability. Learn more about Recycling here!</p>
+                    <p class="t2" style="font-family: 'Bebas Neue', cursive;">Recycling is a very important thing to do in any community, but in marysville it is essential to keeping this towns cleanliness and renewability. Learn more about Recycling here!</p>
                 </div>
                 <a href="page_3.html" target="_parent" width="50px">
                     <button class="button"><span><center><P class="n1">Next</p></center></span></button>
@@ -78,19 +142,20 @@
     <div class="container"></div>
     <div class="external-square">
         <center>
-            <div class="square square-transition">
+            <div class="square square-transition" style="background-color: #42378f;
+            background-image: linear-gradient(180deg, #42378f 0%, #f53844 74%);">
                 <section>
                     <section class="child1" style="width: 13%;">
-                        <img class="image1" src="lightning_bolt.png" alt="raghavJagan">
+                        <img class="image1" src="images/lightning_bolt.png" alt="raghavJagan">
                     </section>
                     <section class="dad">
-                        <p class="p0">Wasting Electricity</p><p class="p1" > </p>
+                        <p class="p0"style="font-family: 'League Gothic', sans-serif; letter-spacing: 3px;">Wasting Electricity</p><p class="p1" > </p>
                     </section>
                 </section>
                 <div class="conta">
-                    <p class="t1">Recycling is a very important thing to do in any community, but in marysville it is essential to keeping this towns cleanliness and renewability. Learn more about Recycling here!</p>
+                    <p class="t2" style="font-family: 'Bebas Neue', cursive;">Recycling is a very important thing to do in any community, but in marysville it is essential to keeping this towns cleanliness and renewability. Learn more about Recycling here!</p>
                 </div>
-                <a href="page_2.html" target="_parent" width="50px">
+                <a href="page_4.html" target="_parent" width="50px">
                     <button class="button"><span><center><P class="n1">Next</p></center></span></button>
                 </a>            
             </div>
@@ -100,20 +165,20 @@
     <div class="container"></div>
     <div id="emptycanvas">
         <div id="emptycanvascolor">
-            <img class="marysville_logo" src="marysville_logo.png" alt="marysville logo"><br><br>
+            <img class="marysville_logo" src="images/marysville_logo.png" alt="marysville logo"><br><br>
             <a href="https://bpa.org" style="text-decoration: none; color: white; padding-left: 2%;">BPA</a><br>
             <a href="https://open-marysville.opendata.arcgis.com/" style="text-decoration: none; color: white; padding-left: 2%;">Marysville</a><br>
-            <a href="backup.html" class="empty">Contact Information</a><br>
-            <a href="index.html" style="text-decoration: none; color: white; padding-left: 2%;">Home</a><br>
-            <a href="page_1.html" style="text-decoration: none; color: white; padding-left: 2%;">Landfill</a><br>
-            <a href="page_2.html" style="text-decoration: none; color: white; padding-left: 2%;">Travel</a><br>
-            <a href="page_3.html" style="text-decoration: none; color: white; padding-left: 2%;">Pollution</a><br>
-            <a href="page_4.html" style="text-decoration: none; color: white; padding-left: 2%;">Electricity</a><br>
-            <a href="attributes.html" style="text-decoration: none; color: white; padding-left: 2%;">Attributes</a>
-            <a href="https://bpa.org"><img class="bpa_image" src="bpa_logo.png" alt="Bpa logo"></a>
+            <a href="contact_information.html" class="empty">Contact Information</a><br>
+            <a href="index.html" class="empty" style="text-decoration: none; color: white; padding-left: 2%;">Home</a><br>
+            <a href="page_1.html" class="empty" style="text-decoration: none; color: white; padding-left: 2%;">Landfill</a><br>
+            <a href="page_2.html" class="empty" style="text-decoration: none; color: white; padding-left: 2%;">Travel</a><br>
+            <a href="page_3.html" class="empty" style="text-decoration: none; color: white; padding-left: 2%;">Pollution</a><br>
+            <a href="page_4.html" class="empty" style="text-decoration: none; color: white; padding-left: 2%;">Electricity</a><br>
+            <a href="attributes.html" class="empty"  style="text-decoration: none; color: white; padding-left: 2%;">Attributes</a>
+            <a href="https://bpa.org"><img class="bpa_image" src="images/bpa_logo.png" alt="Bpa logo"></a>
         </div>
     </div>
-    <script src="ani.js"></script>
+    <script src="comapss.js"></script>
     
 </body>
 </html>
