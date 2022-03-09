@@ -6,6 +6,9 @@ var img = new Image();
 var mouseSector;
 wX = c.clientHeight; //returns the canvas's height
 wY = c.clientWidth; //returns the canvas's width
+var grd = ctx.createLinearGradient(0,0,500,0);
+grd.addColorStop(1,"#cb2154");
+grd.addColorStop(0,"#6617cb");
 innerwidth = .65;
 circleR = 300;
 circleOffset = 45*(Math.PI/180);
@@ -56,7 +59,7 @@ ctx.strokeStyle= "green";
 ctx.save();
 ctx.clip();
 ctx.beginPath();
-ctx.fillStyle = "#1F618D";
+ctx.fillStyle = grd;
 ctx.fillRect(0, 0, wX, wY);
 ctx.restore();
 

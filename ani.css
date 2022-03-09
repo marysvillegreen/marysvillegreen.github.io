@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -28,7 +32,15 @@ html {
   margin-top: 1%;
   /* background-color: yellow; */
 }
-
+.navbare {
+  overflow: hidden;
+  background-color: #2c2a2a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-right: 15%;
+  height: 2%;
+}
 
 @media (max-width: 820px) {
   .nav_cirlce_decoration{
@@ -204,7 +216,7 @@ html {
   }
   
   .n1 {
-    margin-top: -20%;
+    margin-top: -23%;
     margin-left: -13%;
   }
   
@@ -322,13 +334,13 @@ html {
     font-size: 90%;
     color: white; 
     padding: 15% 8% 0% 8% ;
-    margin-top: -30%;
+    margin-top: -25%;
   }
   .t2{
     font-size: 90%;
     color: white; 
     padding: 15% 8% 0% 8% ;
-    margin-top: -40%;
+    margin-top: -28%;
   }
   
   @keyframes wipe-enter {
@@ -605,7 +617,7 @@ font-family: 'Russo One', sans-serif;
     font-size: 130%;
     color: white; 
     padding: 15% 8% 0% 8% ;
-    margin-top: -25%;
+    margin-top: -29%;
   }
   @media(min-width: 650px) {
     .t1 {

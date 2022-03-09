@@ -1671,10 +1671,17 @@ p.tons{
 
 
 
+.api_container_information{
+  width: 47%;
+  margin-left: 2%;
+  aspect-ratio: 16 / 12;
+}
 .api_container{
   border: solid 3px black;
   text-align: center;
   margin-top: 0px;
+  width: 47%;
+  aspect-ratio: 16 / 12;
 }
 .live_stat_biggerscreen{
   font-size: 100%;

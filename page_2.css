@@ -1,4 +1,7 @@
 
+::-webkit-scrollbar {
+    display: none;
+  }
 body{
         padding: 0%;
         margin: 0%;
@@ -12,26 +15,15 @@ body{
     }
 
     
-    .square1{
-        background: url(images/rainbow2.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-    .square3{
-        background: url(images/rainbow2.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
+    
 
 
 
 
 
         @media(min-width: 100px){
+
+    
             
         body{
             background-color: white;
@@ -127,6 +119,10 @@ body{
             background-color: rgba(0, 0, 0, 0);
         }
         .square1{
+            background: url(images/MarysvillepicS1.jpg);
+            background-position-x: center;
+            background-position-y: 60%;
+            background-size: 100%;
             width: 90%;
             /* background-color: lightblue; */
             background-color: rgba(0, 10, 0, 0);
@@ -163,11 +159,15 @@ body{
 
         
         .square3{
+            background: url(images/urban-rural-drivingS2.jpg) no-repeat;
+            background-position-x: center;
+            background-position-y: 60%;
+            background-size: 100%;
             width: 90%;
             /* background-color: lightblue; */
-            background-color: rgba(0, 0, 0, 0);
+            
             margin-left: 5%;
-            height: 200px;
+            height: 170px;
             margin-top: 90px;
             border-radius: 10px;
             border: solid black 3px;
@@ -342,6 +342,7 @@ body{
             /* background-position: 0 100px; */
         }
         @media (min-width: 600px){
+            
             #car{
                 position:fixed;
                 top: 0;
@@ -567,6 +568,20 @@ body{
             height: 100%;
             padding: 0%;
             margin: 0%;
+        }
+        .square1{
+            background: url(images/rainbow2.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .square3{
+            background: url(images/rainbow2.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
         .nav{
             width: 100%;
