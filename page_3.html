@@ -69,8 +69,6 @@ background-image: linear-gradient(316deg, #523a78 0%, #f87b7d 74%);">
           <img class="cloud" src="images/cloud.png" alt="recycle image">
           <p class="big_num">375,238</p>
           <p class="tons">Ton CO<sub>2</sub></p> 
-          
-          <!-- <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> -->
           <div class="infroamtion_container">
               <h1 class="problem_heading" style="font-family: 'League Gothic', sans-serif; letter-spacing: 3px;">The Problem:</h1>
               <img src="images/885323.jpg" class="factory" alt="Imag of factories">
@@ -87,6 +85,13 @@ background-image: linear-gradient(316deg, #523a78 0%, #f87b7d 74%);">
       </div>
       <div class="container3">
         <div class="api_wrapper">
+            <div class="api_container_information" >
+                <h1 class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Live Stat Info:</h1>
+                <p class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Overall Air Quality measure of pollutants in our air. Our Live tracker is currently displaying Marysville Air Quality and it refreshes every 3 minutes. The range on this is 0 to 500, being that 0 is the best and 500 is the worst. Historically, Marysville has had a fine Air Quality measurement.</p>
+                <p class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Pm10 stands for Particulate Matter, the value 10 is used as an indicator saying that the particulate has to be smaller than 10 micrometers. These particulates are formed from Agricultural sites, Construction, and Industrial sources. These particulates can penetrate our lungs and is generally bad for humans to inhale.</p>
+                <p class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Carbon Monoxide is a very dangerous thing as it is odorless and harmful to the human body. It is formed when combustible gases haven't been combusted and will replace oxygen molecules in our blood and potentially kill us. The Live Stat is listed right here and all information is gathered using an API</p>
+                <p class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Nitrogen Dioxide is bad for the environment and our health, once in contact with vegetation, it can decrease crop yield and growth. Health-wise, Nitrogen Dioxide can increase lung-related risks and illnesses such as asthma or various different respiratory infections. The Live Stat for Marysville, Ohio are listed here. All current info is used by API.</p>
+            </div>
             <div class="api_container" style="background-color: #2d3436;
             background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
             ">
@@ -95,43 +100,38 @@ background-image: linear-gradient(316deg, #523a78 0%, #f87b7d 74%);">
                 <p class="live_stat_explanation" style="color: white;">Overall Air quality measures of pollutants in our air. Our Live tracker is currently displaying Marysville Air Quality and it refreshes every 3 minutes. The range on this is 0 to 500, being that 0 is the best and 500 is the worst. Historically, Marysville has had a fine Air Quality measurement.</p>
                 <p class="api_info_name" style="color: white;">PM10 value- <span id="pm101"></span> µg/m³</p>
                 <p class="live_stat_explanation" style="color: white;">Pm10 stands for Particulate Matter, the value 10 is used as an indicator saying that the particulate has to be smaller than 10 micrometers. These particulates are formed from Agricultural sites, Construction, and Industrial sources. These particulates can penetrate our lungs and is generally bad for humans to inhale.</p>
-                <p class="api_info_name" style="color: white;">Carbon Monoxide- <span id="Carbon_Monoxide1"></span></p>
+                <p class="api_info_name" style="color: white;">Carbon Monoxide- <span id="Carbon_Monoxide1"></span>ppm</p>
                 <p class="live_stat_explanation" style="color: white;">Carbon Monoxide is a very dangerous thing as it is odorless and harmful to the human body. It is formed when combustible gases haven't been combusted and will replace oxygen molecules in our blood and potentially kill us. The Live Stat is listed right here and all information is gathered using an API</p>
-                <p class="api_info_name" style="color: white;">Nitrogen Dioxide-<span id="Nitrogen_Dioxide1"></span></p>
+                <p class="api_info_name" style="color: white;">Nitrogen Dioxide-<span id="Nitrogen_Dioxide1"></span> ppm</p>
                 <p class="live_stat_explanation" style="color: white;">Nitrogen Dioxide is bad for the environment and our health, once in contact with vegetation, it can decrease crop yield and growth. Health-wise, Nitrogen Dioxide can increase lung-related risks and illnesses such as asthma or various different respiratory infections. The Live Stat for Marysville, Ohio are listed here. All current info is used by API.</p>
-                <script src="api_testing.js"></script>
-                <script>
-                    window.setTimeout(function () {
-                    window.location.reload();
-                    }, 1800000);
-                    fetch("https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?city=Marysville&state=Ohio&country=United%20States", {
-                                "method": "GET",
-                                "headers": {
-                                    "x-rapidapi-host": "air-quality-by-api-ninjas.p.rapidapi.com",
-                                    "x-rapidapi-key": "98f22c2196mshce628127e4e6c54p1bffafjsnce4999408b21"
-                                }
-                            })
-                            .then(response => response.json())
-                            .then(response => {
-                                console.log(response);
-                                document.getElementById('aqi1').innerHTML = " " + response.overall_aqi;
-                                document.getElementById('pm101').innerHTML = " " + response.overall_aqi;
-                                document.getElementById('Carbon_Monoxide1').innerHTML = " " + response.CO.concentration;
-                                document.getElementById('Nitrogen_Dioxide1').innerHTML = " " + response.NO2.concentration;
-                            })
-                            .catch(err => {
-                                console.error(err);
-                            });
-                </script>
+                
             </div>
-            <div class="api_container_information" >
-                <h1 class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Live Stat Info:</h1>
-                <p class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Overall Air Quality measure of pollutants in our air. Our Live tracker is currently displaying Marysville Air Quality and it refreshes every 3 minutes. The range on this is 0 to 500, being that 0 is the best and 500 is the worst. Historically, Marysville has had a fine Air Quality measurement.</p>
-                <p class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Pm10 stands for Particulate Matter, the value 10 is used as an indicator saying that the particulate has to be smaller than 10 micrometers. These particulates are formed from Agricultural sites, Construction, and Industrial sources. These particulates can penetrate our lungs and is generally bad for humans to inhale.</p>
-                <p class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Carbon Monoxide is a very dangerous thing as it is odorless and harmful to the human body. It is formed when combustible gases haven't been combusted and will replace oxygen molecules in our blood and potentially kill us. The Live Stat is listed right here and all information is gathered using an API</p>
-                <p class="live_stat_biggerscreen" style="color: white; font-family: 'Oswald', sans-serif; letter-spacing: 2px;">Nitrogen Dioxide is bad for the environment and our health, once in contact with vegetation, it can decrease crop yield and growth. Health-wise, Nitrogen Dioxide can increase lung-related risks and illnesses such as asthma or various different respiratory infections. The Live Stat for Marysville, Ohio are listed here. All current info is used by API.</p>
-            </div>
+            
         </div>
+        
+        <script>
+            window.setTimeout(function () {
+            window.location.reload();
+            }, 1800000);
+            fetch("https://air-quality-by-api-ninjas.p.rapidapi.com/v1/airquality?lat=40.2364&lon=83.3671&city=Marysville&state=OH&country=US&zip=43040", {
+            "method": "GET",
+            "headers": {
+                "x-rapidapi-host": "air-quality-by-api-ninjas.p.rapidapi.com",
+                "x-rapidapi-key": "a709cfbe3dmsh285df4ed8029d78p1d9587jsnf5f7e80128c6"
+                }
+            })
+                    .then(response => response.json())
+                    .then(response => {
+                        console.log(response);
+                        document.getElementById('aqi1').innerHTML = " " + response.O3.concentration;
+                        document.getElementById('pm101').innerHTML = " " + response.PM10.aqi;
+                        document.getElementById('Carbon_Monoxide1').innerHTML = " " + response.CO.concentration;
+                        document.getElementById('Nitrogen_Dioxide1').innerHTML = " " + response.NO2.concentration;
+                    })
+                    .catch(err => {
+                        console.error(err);
+                    });
+        </script>
         
         <br><br><br><br><br><br><br>
 
@@ -187,8 +187,6 @@ background-image: linear-gradient(316deg, #523a78 0%, #f87b7d 74%);">
             var screenwidth = screen.availWidth;
             console.log(screenwidth);
         </script>
- <!-- The widht of the computer screen is 1536 px and it is the same for stevie's screen -->
- <!--  -->
 
 </body>
 </html>

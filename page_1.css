@@ -34,7 +34,6 @@ body{
         .nav ul{
             list-style: none;
             background: #2c2a2a;
-            /* background: lightcoral; */
             text-align: center;
             padding: 0%;
             margin: 0;
@@ -89,7 +88,7 @@ body{
             background-color: rgba(0,0,0,0);
         }
         .buffer_conatiner{
-            margin-top: 0%; /* This container is for the navbar to be in the right place and not move down as we pass the margin value. */
+            margin-top: 0%;
         }
         .big_num{
             text-align: center;
@@ -117,7 +116,6 @@ body{
         .num_info_heading{
             text-align: center;
             font-size: 200%;
-            /* margin-right: 8%; */
             margin-top: 5%;
             color: white;
             letter-spacing: 3px;
@@ -298,11 +296,9 @@ body{
         .nav ul{
             list-style: none;
             background: #2c2a2a;
-            /* background: lightcoral; */
             text-align: center;
             padding: 0%;
             margin: 0;
-            /* justify-content: space-between; */
         }
         .nav li{
             display: inline-block;
@@ -332,9 +328,7 @@ body{
         .circle_image {
             float: center;
             width: 5%;
-            /* height: 25%; */
             margin-left: 47.5%;
-            /* margin-top: 0.1%; */
             margin-top: 0.25%;
             position: fixed;
         }
@@ -347,7 +341,6 @@ body{
         .container2{
             width: 100%;
             height: 1000px;
-            /* background-image: linear-gradient(rgb(81, 114, 105), rgb(255, 255, 255)); */
         }
         .container3{
             width: 100%;

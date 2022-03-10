@@ -157,7 +157,7 @@ document.getElementById('comdraw').addEventListener('click', (event) => {
 })// here 2
 
 function pageSelect() {
-	switch(mouseSector) {
+  switch(mouseSector) {
   case 1:
   case 8:
     img.src="images/lightning_bolt.png" 
@@ -190,6 +190,7 @@ function pageSelect() {
   eventclick=true;  
 }
 }
+
 
 
 
